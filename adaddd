@@ -81,8 +81,3 @@ enum GeometryFigures {
     равнобедреннаяТрапеция,
     эллипс;
 }
-
-//Ex 4.1
-enum Helping {
-    
-}
