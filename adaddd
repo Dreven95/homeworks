@@ -1,7 +1,11 @@
 public class Main
 {
     //Ex 1.1
-    public static Object[] weatherInfo(int temperature, String scale, double windSpeed) {
+    public static Object[] weatherInfo(
+        int temperature, 
+        String scale, 
+        double windSpeed
+        ) {
         return new Object[] {temperature, scale, windSpeed};
     }
     
@@ -38,7 +42,11 @@ public class Main
 	    }
 	}
 	//3.2
-	public static double calculatingTheAreaOfAShape (int a, int b, GeometryFigures geometryFigure) {
+	public static double calculatingTheAreaOfAShape (
+	    int a, 
+	    int b, 
+	    GeometryFigures geometryFigure
+	    ) {
 	    double result = 0.0;
 	    switch (geometryFigure) {
 	        case (GeometryFigures.прямоугольник):
@@ -72,7 +80,6 @@ enum GeometryFigures {
     треугольник,
     равнобедреннаяТрапеция,
     эллипс;
-    
 }
 
 //Ex 4.1
