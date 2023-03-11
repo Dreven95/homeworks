@@ -1,4 +1,4 @@
-package com.dreven95.homeworks.homework1;
+package homework1;
 
 public class Numbers {
     public static void main(String[] args) {
